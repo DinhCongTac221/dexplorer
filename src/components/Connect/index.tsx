@@ -25,8 +25,8 @@ import { validateConnection, connectWebsocketClient } from '@/rpc/client'
 
 const chainList = [
   {
-    name: 'Cosmos Hub',
-    rpc: 'https://cosmoshub-rpc.lavenderfive.com',
+    name: 'Airchain',
+    rpc: ' https://t-airchains.rpc.utsa.tech',
   },
   {
     name: 'Osmosis',
