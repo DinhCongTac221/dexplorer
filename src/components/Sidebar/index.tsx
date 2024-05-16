@@ -51,7 +51,7 @@ const RefLinkItems: Array<LinkItemProps> = [
   {
     name: 'Github',
     icon: FiGithub,
-    route: 'https://github.com/dinhcongtac221',
+    route: 'https://github.com/dinhcongtac221/',
     isBlank: true,
   },
   {
