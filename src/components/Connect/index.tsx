@@ -119,10 +119,10 @@ export default function Connect() {
             fontFamily="monospace"
             fontWeight="bold"
           >
-            Dexplorer
+            
           </Heading>
           <Text as={'h2'} fontSize="lg" textAlign={'center'} mb={5}>
-            Disposable Cosmos SDK Chain Explorer
+           
           </Text>
           <Stack
             direction={{ base: 'column', md: 'row' }}
