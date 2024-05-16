@@ -51,13 +51,13 @@ const RefLinkItems: Array<LinkItemProps> = [
   {
     name: 'Github',
     icon: FiGithub,
-    route: 'https://github.com/arifintahu/dexplorer',
+    route: 'https://github.com/dinhcongtac221',
     isBlank: true,
   },
   {
     name: 'Report Issues',
     icon: FiAlertCircle,
-    route: 'https://github.com/arifintahu/dexplorer/issues',
+    route: 'https://github.com',
     isBlank: true,
   },
 ]

@@ -54,8 +54,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | Dexplorer</title>
-        <meta name="description" content="Home | Dexplorer" />
+        <title>Home </title>
+        <meta name="description" content="Home " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
