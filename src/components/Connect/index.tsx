@@ -26,16 +26,13 @@ import { validateConnection, connectWebsocketClient } from '@/rpc/client'
 const chainList = [
   {
     name: 'Airchain',
-    rpc: ' https://t-airchains.rpc.utsa.tech',
+    rpc: ' https://airchains-testnet-rpc.itrocket.net',
   },
-  {
-    name: 'Osmosis',
-    rpc: 'https://rpc-osmosis.ecostake.com',
-  },
+  
 ]
 
 export default function Connect() {
-  const [address, setAddress] = useState('')
+  const [address, setAddress] = useState('https://airchains-testnet-rpc.itrocket.net/')
   const [state, setState] = useState<'initial' | 'submitting' | 'success'>(
     'initial'
   )
@@ -95,8 +92,8 @@ export default function Connect() {
   return (
     <>
       <Head>
-        <title>Dexplorer | Connect</title>
-        <meta name="description" content="Dexplorer | Connect to RPC Address" />
+        <title>AirChains | Connect</title>
+        <meta name="description" content="AirChains | Connect to RPC Address" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
